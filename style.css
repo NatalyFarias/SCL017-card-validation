@@ -1,0 +1,132 @@
+/*Página 1*/
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap");
+* {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.carrito {
+    border: 1px solid;
+    position: absolute;
+    width: 770px;
+    height: 409px;
+    left: 375px;
+    top: 200px;
+    border-radius: 10px;
+    background: rgb(252, 252, 240);
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.centrado {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.elemento0 {
+    justify-content:flex-end;
+    align-items:flex-start;
+}
+.elemento1 {
+    width: 25%;
+}
+
+.elemento2 {
+    width: 35%;
+}
+
+.elemento3 {
+    width: 20%;
+}
+
+.elemento4 {
+    width: 20%;
+}
+
+.derecha {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left : -50px;
+}
+
+.agregar {
+    width: 120px;
+    height: 20px;
+    margin-top: 110px;
+    right: 123px;
+    background: #5A28C4;
+    border-radius: 10px;
+}
+
+.banner {
+    position: absolute;
+    width: 1540px;
+    height: 71px;
+    left: 0px;
+    top: 0px;
+    background: #C9D352;
+}
+
+/*Página 2*/
+
+
+
+.contenedor {
+    border: 1px solid;
+    position: absolute;
+    width: 770px;
+    height: 409px;
+    left: 375px;
+    top: 200px;
+    border-radius: 10px;
+    background: rgb(252, 252, 240);
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.infoUsuario {
+    position: absolute;
+    width: 720px;
+    height: 409px;
+    left: 160px;
+    top: 100px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+.nTarjeta {
+  width: 140px;
+}
+
+.botonValidar {
+    width: 110px;
+    height: 20px;
+    left: 750px;
+    top: 435.67px;
+    background: #5A28C4;
+    border-radius: 10px;
+    margin-left: 13px;
+    
+}
+
+.botonComprar {
+    width: 110px;
+    height: 20px;
+    margin-top: 50px;
+    right: 123px;
+    -webkit-appearance: none;
+    background: #5A28C4;
+    border-radius: 10px;
+    margin-left: 440px;
+}
+
+input[type="number"] input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Card Validation Proyect</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <div class="banner"></div>
+</head>
+
+<body>
+  <!-- Página 1-->
+  <div id="page1" class="carrito">
+    <h2>Carrito de compras<span><img src="./img/107831.png" alt="carrito" width="20px" height="20px"></span></h2>
+    <div class="centrado">
+      <div class="elemento1">
+        <img src="./img/audifono.jpg" alt="audifonos" width="119px" height="140px">
+      </div>
+      <div class="elemento2">
+        <p>Audifonos inalámbricos Sound Core</p>
+      </div>
+      <div class="elemento3">
+        <p>x1</p>
+      </div>
+      <div class="elemento4">
+        <p>$10.990</p>
+      </div>
+
+    </div>
+
+    <div class="derecha">
+      <button class="agregar" id="toBuy" style="color:white">Comprar</button>
+    </div>
+
+  </div>
+
+
+  <!-- Página 2-->
+  <div id="page2" class="bienvenida">
+    <br><br>
+    <h1>
+      <center>Para continuar indica tu datos</center>
+    </h1>
+    <center>
+      <h4>recuerda que tus datos y compra están protegidas</h4>
+    </center>
+    <br><br>
+
+    <div id=" panel" class="contenedor">
+      <form class="infoUsuario">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" class="texto" size="50">
+        <br>
+        <br>
+
+        <label>Dirección: </label>
+        <input type="text" name="direccion" class="texto" size="50"> 
+        <br>
+        <br>
+
+        <label>Banco:</label>
+        <input type="text" name="banco" class="texto" size="50">
+        <br>
+        <br>
+
+        <label>N° de Tarjeta:</label>
+
+        <input type="number" id="nuTarjeta" class="nTarjeta" required><button class="botonValidar" id="validacion"
+          style="color:white" onclick="infoTarjeta()">Verificar</button><br>
+        <button class="botonComprar" id="comprar" style="color:white">Finalizar Compra</button>
+
+      </form>
+    </div>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
