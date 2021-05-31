@@ -9,7 +9,7 @@ const validator = {
       if (i % 2 == 1) {
         //en caso de que el if anterior sea verdadero duplicamos el numero 
         value = 2 * creditCardNumber[i];
-        //si al duplicar el numero es mayor o igual a 10 se se divide en 10 y se suma el residuo 
+        //si al duplicar el numero es mayor o igual a 10 se se divide en 10  (con math.floor extraemos el entero)  y se suma el residuo(value%10) 
         if (value >= 10) {
           value = (Math.floor(value / 10) + value % 10);
         }
@@ -18,7 +18,7 @@ const validator = {
         value = Number(creditCardNumber[i]);
 
       }
-      //aca se guarda en la variable numsun la suma delos digitos
+      //aca se guarda en la variable numsun (la suma delos digitos)
       numSum = numSum + value;
 
     }
